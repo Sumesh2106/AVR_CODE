@@ -1,8 +1,4 @@
-# AVR_CODE
-AVR_CODE_DECIMAl_TO_HEX_CONVERTION_C
-This code is to convert the receiving data into hexa
-in serial communication the data is received or send in the from hexdecimal
-if we send any type of data through keybord to the microcontroller it display in ASCII, converts automatically in ASCII 
-we store the ascii in a variable(unsigned int)
-so the value can access in decimal
-now we convert the stored 
+This code converts the data received through serial communication into hexadecimal. When data is sent or received via serial communication, it is sent in hexadecimal form. If we enter any data through the keyboard into the microcontroller, it is automatically converted into ASCII and stored in an unsigned integer variable. Therefore, the value can be accessed in decimal. Now, this stored value is converted into hexadecimal.
+This code is created for AVR controller,tested in Atmega 16 .language used was embedded c.
+
+NOTE 
